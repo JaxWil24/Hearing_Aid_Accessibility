@@ -1,2 +1,29 @@
 # Hearing_Aid_Accessibility
 Analysis on the accessibility of hearing-aids. 
+
+
+# Hearing Aids and Costco
+
+* Questions Data Set Will Answer
+
+How does the need for over-the-counter hearing aids affect Costco?
+
+
+# Technologies Used
+
+# Data Cleaning and Analysis
+
+We are cleaning and analyzing Coscto data, including Costco locations across the country with hearing aids clinics. All of these data comes in Excel files. Pandas will be used to clean the data and perform an exploratory analysis. Further, our analysis will be completed using Python and Jupyter Notebook.
+
+# Database Storage
+
+PostgreSQL is the database we will use to to then integrate it to AWS RDS to display the data.
+
+
+# Machine Learning
+
+Python, Jupyter Notebook and Scikit-learn to make predictions to fit into a Logistic Regression classifier.
+
+# Dashboard
+
+For the Dashboard we will use Flask template and create JavaScript and HTML files. We might also integrate Tableau for a fully functioning and interactive dashboard, this will be using Tableau public.
