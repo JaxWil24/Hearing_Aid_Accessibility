@@ -29,7 +29,7 @@ How does the need for over-the-counter hearing aids affect Costco?
  
 # Database
 
-  1. Agreed upon using AWS S3 data repository for shared use of project files.  Easy to share work and connect 
+  1. Agreed upon using AWS S3 Bucket data repository for shared use of project files.  Easy to share work and connect 
      to code files. 
      
      a. combined data table(s)
@@ -48,6 +48,7 @@ How does the need for over-the-counter hearing aids affect Costco?
 
 # Dashboard
 
-  1. Using JavaScript & Html for interactive data visualization
+  1. Using Flask template & create JavaScript & Html to create an interactive data visualization
+  2. May also integrate Tableau for interactivity.
 ! Need an outline
      
