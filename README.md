@@ -1,10 +1,10 @@
 # Hearing_Aid_Accessibility
-Analysis on the accessibility of hearing-aids. 
+Analysis on the accessibility of hearing-aids in Costco stores across the United States. 
 
 
 # Hearing Aids and Costco
 
-* Questions Data Set Will Answer
+* Question Data Set Will Answer
 
 How does the need for over-the-counter hearing aids affect Costco?
 
@@ -17,12 +17,13 @@ We are cleaning and analyzing Coscto data, including Costco locations across the
 
 # Database Storage
 
-The database we will use to storage our data is S3 Buket.
+The database we will use to store our data is S3 Buket.
 
 
 # Machine Learning
 
 Python, Jupyter Notebook and Scikit-learn to make predictions to fit into a Logistic Regression .
+
 
 # Dashboard
 
