@@ -25,7 +25,8 @@ Using Pandas, data that started as census data was transformed to csv files allo
 
 ![image](https://user-images.githubusercontent.com/106329824/198403689-1276ccb1-f2b6-453e-896b-84a72cae1cab.png)
 ## Database Storage
-S3 has all the requirements for this analysis and will be used for storing data. 
+AWS S3 Bucket has all the requirements for this analysis and will be used for storing data. 
+
 
 ## Machine Learning
 The machine learning model will be a logistic regression.  
