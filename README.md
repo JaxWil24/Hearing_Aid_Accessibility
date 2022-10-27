@@ -17,12 +17,12 @@ We are cleaning and analyzing Coscto data, including Costco locations across the
 
 # Database Storage
 
-PostgreSQL is the database we will use to to then integrate it to AWS RDS to display the data.
+The database we will use to storage our data is S3 Buket.
 
 
 # Machine Learning
 
-Python, Jupyter Notebook and Scikit-learn to make predictions to fit into a Logistic Regression classifier.
+Python, Jupyter Notebook and Scikit-learn to make predictions to fit into a Logistic Regression .
 
 # Dashboard
 
