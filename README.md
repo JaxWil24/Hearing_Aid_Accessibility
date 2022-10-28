@@ -40,7 +40,8 @@ AWS S3 Bucket has all the requirements for this analysis and will be used for pr
 ## Machine Learning
 The machine learning model will be a logistic regression.  
 
-![image](https://user-images.githubusercontent.com/106329824/198428410-5e11b39c-81d3-415a-b55f-7bcec7cc11af.png)
+![ML](https://user-images.githubusercontent.com/106329824/198689906-7dbebcf9-14e0-456e-b50f-7dab7ee06345.jpg)
+
 
 * A mock-up for structured and unstructured notebooks 
   * Competitive model structure (running 2 - 3 models to find best fit)
