@@ -7,10 +7,10 @@ Legislation recently passed regarding hearing aids that will impact a large perc
 This analysis is to demonstrate how Costco can impact and increase accessibility for over-the-counter hearing aids. 
 
 ## Communication
+![Zoom](https://user-images.githubusercontent.com/106329824/198689305-eaff54cd-e6a1-408b-a853-ab3342e8430e.jpg)
+
+
 * 1 hour Zoom meetings occuring 4 times a week
-
-![image](https://user-images.githubusercontent.com/106329824/198403149-6de312d7-2ac5-4a5e-9ce1-3fc05755ac1c.png)
-
 * 6:30pm - 9:30pm Tuesday & Thursday to meet deadlines, work through roadblocks and create new goals
 * Daily group updates using slack
 * Assigning roles as new needs and requirements come up.
@@ -25,7 +25,8 @@ The cleaning and analyzing of the data included
 
 Using Pandas, data that started as census data was transformed to csv files allowing for quick and simple analysis.
 
-![image](https://user-images.githubusercontent.com/106329824/198427117-514f83b3-8eb1-4e68-9fe3-431a91c03529.png)
+![pandas](https://user-images.githubusercontent.com/106329824/198688854-4270eaa5-c9ee-4077-8bc0-36c8893a9580.jpg)
+
 
 ## Database Storage
 AWS S3 Bucket has all the requirements for this analysis and will be used for project files.
