@@ -25,8 +25,9 @@ Using Pandas, data that started as census data was transformed to csv files allo
 
 ![image](https://user-images.githubusercontent.com/106329824/198403689-1276ccb1-f2b6-453e-896b-84a72cae1cab.png)
 ## Database Storage
-AWS S3 Bucket has all the requirements for this analysis and will be used for storing data. 
-
+AWS S3 Bucket has all the requirements for this analysis and will be used for project files.
+* Easy to share work
+* Connects to code files
 
 ## Machine Learning
 The machine learning model will be a logistic regression.  
@@ -38,3 +39,4 @@ The machine learning model will be a logistic regression.
 ## Dashboard
 The dashboard will be a website. 
 * Flask will be used to create JavaScript and HTML files.
+  * Graphs, Maps, and Images
