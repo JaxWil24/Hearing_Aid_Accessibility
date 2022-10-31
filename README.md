@@ -2,17 +2,8 @@
 Legislation recently passed regarding hearing aids that will impact a large percent of the population and providers, such as Costco. 
 
 ## Project Outline
-* Decide on a topic
-* Develop a question
-* Communication protocols
-* Technologies
-  * Gather data for analysis
-  * Clean and organize data into csv files
-  * Create a database to hold information for the project
-  * Perform exploratory analysis on data
-  * Create a machine learning model (reads and organizes data according to which model is used)
-  * Decide on a dashboard to hold results
-* Design and present a demonstration of analysis 
+![Pipeline](https://user-images.githubusercontent.com/106329824/199088871-5ec8d697-ee79-40bf-8c5f-3a6c4bb72252.png)
+
 
 # Topic
 "Costco’s hearing aid centers have been one of the biggest success stories in the hearing aid industry over the past decade. According to a 2017 report from Bernstein Research, sales at Costco hearing centers have grown at approximately 20% per year since 2011, with Costco expected to account for 19% of all units sold in the U.S. retail market by 2021." - (https://www.hearingtracker.com/hearing-aids/costco)
