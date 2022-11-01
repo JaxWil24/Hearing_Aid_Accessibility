@@ -2,7 +2,7 @@
 Legislation recently passed regarding hearing aids that will impact a large percent of the population and providers, such as Costco. 
 
 ## Project Outline
-![Pipeline](https://user-images.githubusercontent.com/106329824/199088871-5ec8d697-ee79-40bf-8c5f-3a6c4bb72252.png)
+![Pipeline](https://user-images.githubusercontent.com/106329824/199355003-5c8eff28-fb0d-45ad-a98b-adfa8917fe4e.png)
 
 
 # Topic
