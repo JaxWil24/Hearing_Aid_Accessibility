@@ -1,6 +1,14 @@
 # Hearing Aids and Costco
+![otchearingaids](https://user-images.githubusercontent.com/106329824/199606602-171e9107-1f56-42ec-9bdd-1b2b28147a59.jpg)
+
 Legislation recently passed regarding hearing aids that will impact a large percent of the population and providers, such as Costco. 
 
+## Project Outline
+![Pipeline](https://user-images.githubusercontent.com/106329824/199606706-a92d6417-19fc-495e-b349-e9605f09f8c2.png)
+
+
+
+# Topic
 "Costco’s hearing aid centers have been one of the biggest success stories in the hearing aid industry over the past decade. According to a 2017 report from Bernstein Research, sales at Costco hearing centers have grown at approximately 20% per year since 2011, with Costco expected to account for 19% of all units sold in the U.S. retail market by 2021." - (https://www.hearingtracker.com/hearing-aids/costco)
 
 Final Ruling Link
@@ -11,6 +19,7 @@ FDA News Release
 
 ![Costco](https://user-images.githubusercontent.com/106329824/198686685-262efbd1-3de0-4bf0-88a5-2c8d7df4ffd9.png)
 
+# Question
 ## How does the need for over-the-counter hearing aids affect Costco?
 This analysis is to demonstrate how Costco can impact and increase accessibility for over-the-counter hearing aids. 
 
