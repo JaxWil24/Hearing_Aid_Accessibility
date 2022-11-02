@@ -1,8 +1,11 @@
 # Hearing Aids and Costco
+![otchearingaids](https://user-images.githubusercontent.com/106329824/199606602-171e9107-1f56-42ec-9bdd-1b2b28147a59.jpg)
+
 Legislation recently passed regarding hearing aids that will impact a large percent of the population and providers, such as Costco. 
 
 ## Project Outline
-![Pipeline](https://user-images.githubusercontent.com/106329824/199355003-5c8eff28-fb0d-45ad-a98b-adfa8917fe4e.png)
+![Pipeline](https://user-images.githubusercontent.com/106329824/199606706-a92d6417-19fc-495e-b349-e9605f09f8c2.png)
+
 
 
 # Topic
