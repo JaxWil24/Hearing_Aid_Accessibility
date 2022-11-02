@@ -70,7 +70,7 @@ AWS S3 Bucket has all the requirements for this analysis and will be used for th
 * Connects to multiple kinds of files, graphs, and pictures
 
 ## Machine Learning
-The machine learning model will be a Logistic Regression and RandomForest.  
+The machine learning model will be a Logistic Regression, SMOTEENN, and RandomForest.  
 
 ![ML](https://user-images.githubusercontent.com/106329824/198689906-7dbebcf9-14e0-456e-b50f-7dab7ee06345.jpg)
 
