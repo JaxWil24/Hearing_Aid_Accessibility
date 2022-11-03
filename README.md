@@ -1,5 +1,4 @@
-# Hearing Aids and Costco
-![otchearingaids](https://user-images.githubusercontent.com/106329824/199606602-171e9107-1f56-42ec-9bdd-1b2b28147a59.jpg)
+# Hearing Aids and Costco 
 
 Legislation recently passed regarding hearing aids that will impact a large percent of the population and providers, such as Costco. 
 
@@ -17,7 +16,7 @@ Final Ruling Link
 FDA News Release
 (https://www.fda.gov/news-events/press-announcements/fda-finalizes-historic-rule-enabling-access-over-counter-hearing-aids-millions-americans)
 
-![Costco](https://user-images.githubusercontent.com/106329824/198686685-262efbd1-3de0-4bf0-88a5-2c8d7df4ffd9.png)
+![Costco](https://user-images.githubusercontent.com/106329824/198686685-262efbd1-3de0-4bf0-88a5-2c8d7df4ffd9.png)![otchearingaids](https://user-images.githubusercontent.com/106329824/199606602-171e9107-1f56-42ec-9bdd-1b2b28147a59.jpg)  
 
 # Question
 ## How does the need for over-the-counter hearing aids affect Costco?
