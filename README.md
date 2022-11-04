@@ -69,16 +69,23 @@ AWS S3 Bucket has all the requirements for this analysis and will be used for th
 * Connects to multiple kinds of files, graphs, and pictures
 
 ## Machine Learning
-The machine learning model will be a Logistic Regression, SMOTEENN, and RandomForest.  
+The machine learning models used: Logistic Regression, SMOTEENN, and RandomForest.  
 
 ![ML](https://user-images.githubusercontent.com/106329824/198689906-7dbebcf9-14e0-456e-b50f-7dab7ee06345.jpg)
 
 
-* Competitive model structure (running 2 - 3 models to find best fit)
+* Competitive model structure - ran 3 models to find best predictor
 * Training on Costco locations (zip-codes)
-* Using precision and recall
+* Precision and recall is best determinator for this project. 
+* Smoteen algorithm had the best results but not to the degree that it could be used to predict optimal zip codes(s) for
+  additional Costco Hearing Centers (CHC's).
+* Feature selection algorithms point to our dataset needing additional data to predict new locations for CHC's
 
-## Dashboard
+![ML_Results](https://user-images.githubusercontent.com/107228424/200046000-230dd27f-511d-4f92-811c-43c779d8c4cb.jpg)
+
+
+## Dashboard![Uploading ML_Results.jpg…]()
+
 The dashboard will be an interactive website. 
 * Flask will be used to create JavaScript and HTML files.
   * Graphs, Maps, and Images
