@@ -1,6 +1,13 @@
-# Hearing Aids and Costco
+# Hearing Aids and Costco 
+
 Legislation recently passed regarding hearing aids that will impact a large percent of the population and providers, such as Costco. 
 
+## Project Outline
+![Pipeline](https://user-images.githubusercontent.com/106329824/199831320-92068c49-9c88-4a62-8ea3-e39746a44c0d.png)
+
+
+
+# Topic
 "Costco’s hearing aid centers have been one of the biggest success stories in the hearing aid industry over the past decade. According to a 2017 report from Bernstein Research, sales at Costco hearing centers have grown at approximately 20% per year since 2011, with Costco expected to account for 19% of all units sold in the U.S. retail market by 2021." - (https://www.hearingtracker.com/hearing-aids/costco)
 
 Final Ruling Link
@@ -9,19 +16,11 @@ Final Ruling Link
 FDA News Release
 (https://www.fda.gov/news-events/press-announcements/fda-finalizes-historic-rule-enabling-access-over-counter-hearing-aids-millions-americans)
 
-![Costco](https://user-images.githubusercontent.com/106329824/198686685-262efbd1-3de0-4bf0-88a5-2c8d7df4ffd9.png)
+![Costco](https://user-images.githubusercontent.com/106329824/198686685-262efbd1-3de0-4bf0-88a5-2c8d7df4ffd9.png)![otchearingaids](https://user-images.githubusercontent.com/106329824/199606602-171e9107-1f56-42ec-9bdd-1b2b28147a59.jpg)  
 
+# Question
 ## How does the need for over-the-counter hearing aids affect Costco?
 This analysis is to demonstrate how Costco can impact and increase accessibility for over-the-counter hearing aids. 
-
-## Communication
-![Zoom](https://user-images.githubusercontent.com/106329824/198689305-eaff54cd-e6a1-408b-a853-ab3342e8430e.jpg)
-
-
-* 6:30pm - 9:30pm Tuesday & Thursday to meet deadlines, work through roadblocks and create new goals
-* 1 hour additional Zoom meetings occuring 5 times a week for maintaining workflow
-* Daily group updates using slack
-* Assigning roles, research, and tasks as new needs and requirements arise
 
 # Technologies Used
 
@@ -61,7 +60,7 @@ AWS S3 Bucket has all the requirements for this analysis and will be used for th
 * Connects to multiple kinds of files, graphs, and pictures
 
 ## Machine Learning
-The machine learning model will be a Logistic Regression and RandomForest.  
+The machine learning model will be a Logistic Regression, SMOTEENN, and RandomForest.  
 
 ![ML](https://user-images.githubusercontent.com/106329824/198689906-7dbebcf9-14e0-456e-b50f-7dab7ee06345.jpg)
 
