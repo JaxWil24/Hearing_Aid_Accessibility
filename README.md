@@ -1,10 +1,9 @@
-# Hearing Aids and Costco
-![otchearingaids](https://user-images.githubusercontent.com/106329824/199606602-171e9107-1f56-42ec-9bdd-1b2b28147a59.jpg)
+# Hearing Aids and Costco 
 
 Legislation recently passed regarding hearing aids that will impact a large percent of the population and providers, such as Costco. 
 
 ## Project Outline
-![Pipeline](https://user-images.githubusercontent.com/106329824/199606706-a92d6417-19fc-495e-b349-e9605f09f8c2.png)
+![Pipeline](https://user-images.githubusercontent.com/106329824/199831320-92068c49-9c88-4a62-8ea3-e39746a44c0d.png)
 
 
 
@@ -17,7 +16,7 @@ Final Ruling Link
 FDA News Release
 (https://www.fda.gov/news-events/press-announcements/fda-finalizes-historic-rule-enabling-access-over-counter-hearing-aids-millions-americans)
 
-![Costco](https://user-images.githubusercontent.com/106329824/198686685-262efbd1-3de0-4bf0-88a5-2c8d7df4ffd9.png)
+![Costco](https://user-images.githubusercontent.com/106329824/198686685-262efbd1-3de0-4bf0-88a5-2c8d7df4ffd9.png)![otchearingaids](https://user-images.githubusercontent.com/106329824/199606602-171e9107-1f56-42ec-9bdd-1b2b28147a59.jpg)  
 
 # Question
 ## How does the need for over-the-counter hearing aids affect Costco?
@@ -70,7 +69,7 @@ AWS S3 Bucket has all the requirements for this analysis and will be used for th
 * Connects to multiple kinds of files, graphs, and pictures
 
 ## Machine Learning
-The machine learning model will be a Logistic Regression and RandomForest.  
+The machine learning model will be a Logistic Regression, SMOTEENN, and RandomForest.  
 
 ![ML](https://user-images.githubusercontent.com/106329824/198689906-7dbebcf9-14e0-456e-b50f-7dab7ee06345.jpg)
 
