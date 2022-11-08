@@ -22,15 +22,6 @@ FDA News Release
 ## How does the need for over-the-counter hearing aids affect Costco?
 This analysis is to demonstrate how Costco can impact and increase accessibility for over-the-counter hearing aids. 
 
-## Communication
-![Zoom](https://user-images.githubusercontent.com/106329824/198689305-eaff54cd-e6a1-408b-a853-ab3342e8430e.jpg)
-
-
-* 6:30pm - 9:30pm Tuesday & Thursday to meet deadlines, work through roadblocks and create new goals
-* 1 hour additional Zoom meetings occuring 5 times a week for maintaining workflow
-* Daily group updates using slack
-* Assigning roles, research, and tasks as new needs and requirements arise
-
 # Technologies Used
 
 ## Data Sourcing and Selection
