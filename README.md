@@ -115,7 +115,6 @@ The machine learning models (using Python's machine learning library scikit-lear
   
   ![Smoteenn](https://user-images.githubusercontent.com/107228424/201185080-a5ca6f16-cc75-4fff-ba4b-1615ca6083b6.jpg)
 
- 
 * Results / Conclusion:
   - Smoteen algorithm had the best results but not to the degree that it could be used to predict optimal zip codes(s) 
     for additional Costco Hearing Centers (CHC's)    
@@ -131,7 +130,7 @@ The machine learning models (using Python's machine learning library scikit-lear
     + Bucketing population data into decades or generations but keeping in mind not overfitting
     + Visualizing outliers to detect outliers
     + Adding % hearing impaired and hearing aid's cost
-
+ 
 
 ## Dashboard
 
