@@ -117,10 +117,10 @@ The machine learning models (using Python's machine learning library scikit-lear
 
 * Results / Conclusion:
   - Smoteen algorithm had the best results but not to the degree that it could be used to predict optimal zip codes(s) 
-    for additional Costco Hearing Centers (CHC's)    
-  - Accuracy: Pretty good at .86 but not high enough to commit to the expense of opening a Costco Center
-  - Logistic regression predicted a binary outcome, 0 or 1. Unfortunately, it couldn’t predict optimal zip codes
-  - Accuracy: .98, although is very high, this a poor metric for the type of dataset we have. It’s only considering all the “yes, costco location here” and not considering the other option “no, costco location here”
+    for additional Costco Hearing Centers (CHC's).    
+  - Accuracy: Pretty good at .86 but not high enough to commit to the expense of opening a Costco Center.
+  - Logistic Regression predicted a binary outcome, 0 or 1. Unfortunately, it couldn’t predict optimal zip codes.
+  - Accuracy: .98, although is very high, this a poor metric for the type of dataset we have. It’s only considering all the “yes, costco location here” and not considering the other option “no, costco location here”.
   - Precision and recall:
   
    ![ML_Results](https://user-images.githubusercontent.com/107228424/200046000-230dd27f-511d-4f92-811c-43c779d8c4cb.jpg) 
