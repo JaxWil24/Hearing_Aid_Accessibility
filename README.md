@@ -37,6 +37,7 @@ FDA News Release
 This analysis is to demonstrate how Costco can impact and increase accessibility for over-the-counter hearing aids. 
 
 
+
 # Technologies Used
   * Excel                               ![Technology_used](https://user-images.githubusercontent.com/107228424/200983007-9034c14a-1c72-4ae5-ae0b-7abbc7ed7ebd.jpg)
 
@@ -93,8 +94,9 @@ AWS S3 Bucket has all the requirements for this analysis and will be used to sto
 * Easy to use on multiple platforms
 
 
+
 ## Machine Learning
-The machine learning models  
+The machine learning models (using Python's machine learning library scikit-learn)  
 
 ![ML](https://user-images.githubusercontent.com/106329824/198689906-7dbebcf9-14e0-456e-b50f-7dab7ee06345.jpg)
 
@@ -102,29 +104,34 @@ The machine learning models
 * Feature Engineering:
   - Dropped Costco locations that do not have hearing aid centers
   - Dropped age population younger than 20 and older than 69
-  - Other than age group, dropped all other demographic columns except  
+  - Dropped all other demographic columns except education levels reached and household income columns  
  
-* Data Split:
+* Data Split/Trained/Scaled:
   - Trained on Costco locations by zip-codes as our y and various demographic columns for our features (X)
+  - Using standard scaler, scaled our features to become identical in terms of the range so our columns could be compared
 
 * Model choice:     
   * Competitive model structure - ran Logistic Regression, SMOTEENN, and RandomForest to find best predictor
+  
+  ![Smoteenn](https://user-images.githubusercontent.com/107228424/201185080-a5ca6f16-cc75-4fff-ba4b-1615ca6083b6.jpg)
+
  
 * Results / Conclusion:
-  - Precision and recall is best determinator for this project
   - Smoteen algorithm had the best results but not to the degree that it could be used to predict optimal zip codes(s) 
-    for additional Costco Hearing Centers (CHC's).
+    for additional Costco Hearing Centers (CHC's)    
+  - Accuracy: Pretty good at .86 but not high enough to commit to the expense of opening a Costco Center
+  - Precision and recall:
+  
+   ![ML_Results](https://user-images.githubusercontent.com/107228424/200046000-230dd27f-511d-4f92-811c-43c779d8c4cb.jpg) 
     
-* Feature selection algorithms point to our dataset needing additional data to predict new locations for CHC's.  
-  Additional data to consider:
-  - Combine/merging population data into decades or generations
-  - Adding % hearing impaired and hearing aid's cost
+  - Feature engineering: our results point to our dataset needing additional look into additional data to predict new locations for CHC's.  
+  - Additional data to consider:
+    + Bucketing population data into decades or generations but keeping in mind not overfitting
+    + Visualizing outliers to detect outliers
+    + Adding % hearing impaired and hearing aid's cost
 
 
-![ML_Results](https://user-images.githubusercontent.com/107228424/200046000-230dd27f-511d-4f92-811c-43c779d8c4cb.jpg)
-
-
-## Dashboard![Uploading ML_Results.jpg…]()
+## Dashboard
 
 The dashboard will be an interactive website. 
 * Flask will be used to create JavaScript and HTML files.
