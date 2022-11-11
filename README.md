@@ -12,10 +12,12 @@ This legislation will impact a large percent of the
 population and providers, such as Costco.
                 
 
-![costcos_usa](https://user-images.githubusercontent.com/107228424/201242982-0e1d740a-9142-4ff2-a782-32e4c3e3fe92.jpg)
+![costcos_usa](https://user-images.githubusercontent.com/107228424/201243488-2323e73e-da2a-40cb-88d7-cd1250a7e45b.jpg)
 
 
-## Project Outline![Uploading costcos_usa.jpg…]()
+
+
+## Project Outline
 
 ![Pipeline](https://user-images.githubusercontent.com/106329824/199831320-92068c49-9c88-4a62-8ea3-e39746a44c0d.png)
 
@@ -35,23 +37,15 @@ FDA News Release
 ![Costco](https://user-images.githubusercontent.com/106329824/198686685-262efbd1-3de0-4bf0-88a5-2c8d7df4ffd9.png)![otchearingaids](https://user-images.githubusercontent.com/106329824/199606602-171e9107-1f56-42ec-9bdd-1b2b28147a59.jpg)  
 
 
+
 # Question
-## How does the need for over-the-counter hearing aids affect Costco?
-This analysis is to demonstrate how Costco can impact and increase accessibility for over-the-counter hearing aids. 
+## Costco and hearing aid accessibility
+How does the Legislation recently passed allowing hearing aids to be available over the counter affect Costco and locations?
 
 
 
 # Technologies Used
-  * Excel                               ![Technology_used](https://user-images.githubusercontent.com/107228424/200983007-9034c14a-1c72-4ae5-ae0b-7abbc7ed7ebd.jpg)
-
-  * Jupyter Notebook
-  * Google colab
-  * VS Code
-  * Python
-  * Pandas
-  * JavaScript
-  * Amazon S3 Bucket
-  * Github
+![Technology_used](https://user-images.githubusercontent.com/107228424/200983007-9034c14a-1c72-4ae5-ae0b-7abbc7ed7ebd.jpg)
 
 
 
@@ -123,7 +117,7 @@ The machine learning models (using Python's machine learning library scikit-lear
     as well as the 0's (no Costco locations).  This model may be good as additional information tool in determining a new store location
     but is not a good application for this type of prediction.
   - Logistic Regression predicted a binary outcome, 0 or 1. Unfortunately, it couldn’t predict optimal zip codes.
-  - Accuracy: .98, although is very high, this a poor metric for the type of dataset we have. It’s only considering all the “yes, 
+    + Accuracy: .98, although is very high, this a poor metric for the type of dataset we have. It’s only considering all the “yes, 
     costco location here” and not considering the other option “no, costco location here”.
   - Random Forest has the same limitations as Logistic Regression in as there are so few "yes'" it considers them irrelevant.  Dataset is
     imbalanced.
