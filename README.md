@@ -10,10 +10,13 @@ increased over several years, only 18.5 percent owned and used them, with still 
 
 This legislation will impact a large percent of the 
 population and providers, such as Costco.
-                ![costcos_usa](https://user-images.githubusercontent.com/107228424/200981711-8219e56b-78be-4d7d-8007-3be839e69954.jpg)
+                
+
+![costcos_usa](https://user-images.githubusercontent.com/107228424/201242982-0e1d740a-9142-4ff2-a782-32e4c3e3fe92.jpg)
 
 
-## Project Outline
+## Project Outline![Uploading costcos_usa.jpg…]()
+
 ![Pipeline](https://user-images.githubusercontent.com/106329824/199831320-92068c49-9c88-4a62-8ea3-e39746a44c0d.png)
 
 
@@ -116,12 +119,15 @@ The machine learning models (using Python's machine learning library scikit-lear
   ![Smoteenn](https://user-images.githubusercontent.com/107228424/201185080-a5ca6f16-cc75-4fff-ba4b-1615ca6083b6.jpg)
 
 * Results / Conclusion:
-  - Smoteen algorithm had the best results but not to the degree that it could be used to predict optimal zip codes(s) 
-    for additional Costco Hearing Centers (CHC's).    
-  - Accuracy: Pretty good at .86 but not high enough to commit to the expense of opening a Costco Center.
+  - Smoteen algorithm had the best results of all three machine learning as it considered the 1's (Costco locations, minority class), 
+    as well as the 0's (no Costco locations).  This model may be good as additional information tool in determining a new store location
+    but is not a good application for this type of prediction.
   - Logistic Regression predicted a binary outcome, 0 or 1. Unfortunately, it couldn’t predict optimal zip codes.
-  - Accuracy: .98, although is very high, this a poor metric for the type of dataset we have. It’s only considering all the “yes, costco location here” and not considering the other option “no, costco location here”.
-  - Precision and recall:
+  - Accuracy: .98, although is very high, this a poor metric for the type of dataset we have. It’s only considering all the “yes, 
+    costco location here” and not considering the other option “no, costco location here”.
+  - Random Forest has the same limitations as Logistic Regression in as there are so few "yes'" it considers them irrelevant.  Dataset is
+    imbalanced.
+  - Results tables:
   
    ![ML_Results](https://user-images.githubusercontent.com/107228424/200046000-230dd27f-511d-4f92-811c-43c779d8c4cb.jpg) 
     
