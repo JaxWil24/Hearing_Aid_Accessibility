@@ -6,7 +6,7 @@ dollars, no prescription required.
 
 The potential market is enormous. Self-perceived mild to moderate hearing loss, the condition that these devices are designed to address,
 directly affects 23% of Americans aged 12 years or older. A 2018 study of Americans over 70 found that although hearing aid use had 
-increased over several years, only 18.5 percent owned and used them, with still lower rates among low-income and Black respondents.
+increased over several years, only 17 percent owned and used them, with still lower rates among low-income and Black respondents.
 
 This legislation will impact a large percent of the 
 population and providers, such as Costco.
@@ -40,7 +40,11 @@ FDA News Release
 
 # Question
 ## Costco and hearing aid accessibility
-How does the Legislation recently passed allowing hearing aids to be available over the counter affect Costco and locations?
+How does the Legislation recently passed allowing over the counter (OTC) hearing aids allow Costco to increase accessibility?
+
+
+
+![Untitled](https://user-images.githubusercontent.com/107228424/201964230-0c41b4d6-5ae1-49a5-af6a-ba3b9a9eb836.jpg)
 
 
 
@@ -104,7 +108,7 @@ The machine learning models (using Python's machine learning library scikit-lear
   - Dropped all other demographic columns except education levels reached and household income columns  
  
 * Data Split/Trained/Tested/Scaled:
-  - Trained on Costco locations by zip-codes as our y and various demographic columns for our features (X)
+  - Trained on Costco locations by zip-codes as our y and demographic columns for our features (X)
   - Using standard scaler, scaled our features to become identical in terms of the range so our columns could be compared
 
 * Model choice:     
@@ -113,8 +117,10 @@ The machine learning models (using Python's machine learning library scikit-lear
   ![Smoteenn](https://user-images.githubusercontent.com/107228424/201185080-a5ca6f16-cc75-4fff-ba4b-1615ca6083b6.jpg)
 
 * Results / Conclusion:
-  - Smoteen algorithm had the best results of all three machine learning as it considered the 1's (Costco locations, minority class), 
-    as well as the 0's (no Costco locations).  This model may be good as additional information tool in determining a new store location
+  - Smoteen algorithm had the best results of all three machine learning as it balances the 1's (Costco locations, minority class), 
+    as well as the 0's (no Costco locations). This model may be good as additional information tool in determining a new store 
+    location but is not a good application for this type of prediction.  Lowering the decision threshold from 50% to 10% to get a 
+    higher precision or high recall ML model. This output maybe good as additional information tool in determining a new store location 
     but is not a good application for this type of prediction.
   - Logistic Regression predicted a binary outcome, 0 or 1. Unfortunately, it couldn’t predict optimal zip codes.
     + Accuracy: .98, although is very high, this a poor metric for the type of dataset we have. It’s only considering all the “yes, 
@@ -137,7 +143,12 @@ The machine learning models (using Python's machine learning library scikit-lear
 The dashboard will be an interactive website. 
 * Flask will be used to create JavaScript and HTML files.
   * Graphs, Maps, and Images
-
+  
+## Conclusion
+*Refocus on how Costco can make affordable solutions available to the hearing impaired.  
+* Identify individuals with hearing impairment through online/web based hearing assessment tool. This would allow Costco to reach out to 
+  their current customer base and those that may be outside Costco's physical location.  
+* A web based and in store kiosk assessment along with demographic data allows for data gatering to create a prediction model. 
 
 ## Reference Material
 (https://www.nytimes.com/2022/10/10/health/hearing-aids-fda.html)
