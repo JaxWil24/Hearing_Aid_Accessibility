@@ -145,12 +145,20 @@ The dashboard will be an interactive website.
   * Graphs, Maps, and Images
   
 ## Conclusion
-*Refocus on how Costco can make affordable solutions available to the hearing impaired.  
+
+* Refocus on how Costco can make affordable solutioins available to the hearing impaired.  
 * Identify individuals with hearing impairment through online/web based hearing assessment tool. This would allow Costco to reach out to 
   their current customer base and those that may be outside Costco's physical location.  
 * A web based and in store kiosk assessment along with demographic data allows for data gatering to create a prediction model. 
 
 ## Reference Material
-(https://www.nytimes.com/2022/10/10/health/hearing-aids-fda.html)
+•	https://www.nytimes.com/2022/10/10/health/hearing-aids-fda.html
 
-(https://www.fortunebusinessinsights.com/industry-reports/hearing-aids-market-101573)
+•	https://hearingreview.com/inside-hearing/regulation/national-academies-sciences-release-report-hearing-aid-accessibility-affordability 
+
+•	https://www.costco.com/warehouse-locations
+ 
+•	https://www.scrapehero.com/location-reports/Costco-USA/
+
+•	https://www.fortunebusinessinsights.com/industry-reports/hearing-aids-market-101573
+
