@@ -22,6 +22,7 @@
 
 html {
      scroll-behavior: smooth;
+     scroll-padding-top: 100px;
 }
 
 body {
@@ -61,11 +62,11 @@ h6 {
 }
 
 h1 {
-     font-size: 24px
+     font-size: 24px;
 }
 
 h2 {
-     font-size: 22px
+     font-size: 22px;
 }
 
 h3 {
@@ -191,26 +192,67 @@ blockquote {
     width: 100%;
     float: left;
     padding: 20px 0px;
-    background-color: #0c426e;
     overflow: visible;
 }
-/* Style the links inside the navigation bar */
-.header {
-    color: #e5eee5;
-    text-align: center;
-    padding: 14px 16px;
-    font-size: 17px;
+.toggle_icon{
+    font-size: 33px;
+    cursor:pointer;
+    color: #ffffff;
 }
-.header a {
+.toggle_menu{
+    height: 20px;
+    width: 33px;
+}
+img.padding_right_10 {
+    padding-right: 20px;
+}
+ 
+.costum_header{
+    width: 100%;
+    display: flex;
+}
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(12,66,110, 0.95);
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+ 
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+.overlay a {
+    padding: 0px;    
     text-decoration: none;
     font-size: 22px;
     color: #f1f1f1;
+    display: block;
     transition: 0.3s;
-    display: inline-block;
 }
-
+ 
+.overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+#myHeader {
+    z-index: 200;
+}
+#myNav {
+    z-index: 205;
+}
 /* Change the color of links on hover */
-.header a:hover {
+.overlay a:hover {
 background-color: #fafafa;
 color: #1b1a1a;
 }
@@ -257,7 +299,7 @@ color: #1b1a1a;
     text-align: center;
     font-size: 16px;
     color: #060606;
-    margin: 0px;
+    margin-left: 100px;
 }
 
 .btn_main {
@@ -397,6 +439,8 @@ color: #1b1a1a;
     font-size: 15px;
     color: #252525;
     text-align: center;
+    margin-bottom: 50px;
+    position: relative;
 }
 .seemore_bt{
     width: 170px;
@@ -416,6 +460,7 @@ color: #1b1a1a;
 .image_1{
     width: 100%;
     float: left;
+    margin-top: 50px;
 }
 .padding_right_0{
     padding-right: 0px;

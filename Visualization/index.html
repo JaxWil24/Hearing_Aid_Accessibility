@@ -35,7 +35,10 @@
         <link rel="stylesheet" href="static/css/owl.carousel.min.css">
         <link rel="stylesoeet" href="static/css/owl.theme.default.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">    
-   
+        
+        <!-- Plotly -->
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
     </head>
 
     <body>
@@ -46,7 +49,8 @@
             <div class="header_section">
                 <div class="container-fluid">
                     <div class="costum_header">
-                        <div class="menu_text">
+                        <div id="myNav" class="overlay">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                             <div class="overlay-content">
                                 <a href="#"> Home </a>
                                 <a href="#analysis"> Analysis </a>
@@ -55,6 +59,7 @@
                                 <a href="#conclusion"> Conclusion </a>
                             </div>
                         </div>
+                        <span class="toggle_icon" onclick="openNav()"><img src="static/images/toggle-icon.png" class="toggle_menu"></span>
                     </div>
                 </div>
             </div>
@@ -87,24 +92,25 @@
     <!-------------- Opening ---------------->
 
             <div  id="analysis" class="services_section layout_padding">
-                <div class="container">
-                    <h1 class="services_taital"> Scope of hearing loss in the U.S. </h1>        
-                    <p class="services_text"> Costco has the ability to increase accessibility for the hearing impaired. With new over-the-counter product, those who couldn't afford hearing aids now can. These are the new location oppurtunities that would benefit both Costco and those in need. </p>
-                    <div class="services_section_2 layout_padding">
-                        <div class="row">
-                            <div class="col-md-4 padding_right_0">
-                                <div class="services_box">
-                                    <h4 class="express_text"> Machine Learning </h4>
-                                    <p class="lorem_text"> SMOTEENN. Over and under sample model due to having an imbalanced data set. With a recall of 0.84 and an accuracy score of 0.86, SMOTEEN was the most predictive. The precision is 100% predictive for the ones we know, but it won't predict a new location. </p>
-                                    <div><img src="static/images/smoteenn.png" class="image_1">
-                                    </div>
-                                </div>
-                                <div class="services_box">
-                                    <h4 class="express_text"> The Analysis </h4>
-                                    <p class="lorem_text"> What happened? Exploratory Analysis?? </p>
-                                    <div><img src="static/images/img-1.png" class="image_1"></div>
+                <h1 class="services_taital"> Scope of hearing loss in the U.S. </h1>        
+                <p class="services_text"> Costco has the ability to increase accessibility for the hearing impaired. With new over-the-counter product, those who couldn't afford hearing aids now can. These are the new location oppurtunities that would benefit both Costco and those in need. </p>
+                <div class="services_section_2 layout_padding">
+                    <div class="row">
+                        <div class="col-md-4 padding_right_0">
+                            <div class="services_box">
+                                <h4 class="express_text"> Machine Learning </h4>
+                                <p class="lorem_text"> SMOTEENN. Over and under sample model due to having an imbalanced data set. With a recall of 0.84 and an accuracy score of 0.86, SMOTEEN was the most predictive. The precision is 100% predictive for the ones we know, but it won't predict a new location. </p>
+                                <div><img src="static/images/smoteenn.png" class="image_1">
                                 </div>
                             </div>
+                            <div class="services_box">
+                                <h4 class="express_text"> The Analysis </h4>
+                                <p class="lorem_text"> Accuracy Score </p>
+                            </div>
+                            <div id="accuracy"></div>
+                            <script src="static/js/accuracy.js"></script>
+                            <div id="population"></div>
+                            <script src="static/js/population.js"></script>
                         </div>
                     </div>
                 </div>
