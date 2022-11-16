@@ -100,16 +100,15 @@
                             <div class="services_box">
                                 <h4 class="express_text"> Machine Learning </h4>
                                 <p class="lorem_text"> SMOTEENN. Over and under sample model due to having an imbalanced data set. With a recall of 0.84 and an accuracy score of 0.86, SMOTEEN was the most predictive. The precision is 100% predictive for the ones we know, but it won't predict a new location. </p>
-                                <div><img src="static/images/smoteenn.png" class="image_1">
-                                </div>
+                                <div><img src="static/images/smoteenn.png" class="image_1"></div>
                             </div>
                             <div class="services_box">
                                 <h4 class="express_text"> The Analysis </h4>
-                                <p class="lorem_text"> Accuracy Score </p>
+                                <p class="lorem_text"> Machine Learning Models </p>
+                                <div id="accuracy"></div>
+                                <p class="lorem_text"> 2019 & 2026 Population by Generation (in millions) </p>
+                                <div id="population"></div>
                             </div>
-                            <div id="accuracy"></div>
-                            <script src="static/js/accuracy.js"></script>
-                            <div id="population"></div>
                             <script src="static/js/population.js"></script>
                         </div>
                     </div>
@@ -120,18 +119,9 @@
 
             <div id="map" class="services_section layout_padding">
                 <div class="container">
-                    <h1 class="services_taital"> Maps </h1>        
-                    <p class="services_text"> Maps maps Maps, These are going to be maps. </p>
-                    <div class="services_section_2 layout_padding">
-                        <div class="row">
-                            <div class="col-md-4 padding_right_0">
-                                <div class="services_box">
-                                    <h4 class="express_text"> Maps </h4>
-                                    <p class="lorem_text"> What are these maps? Why? </p>
-                                    <div><img src="static/images/pie.png" class="image_1"></div>
-                                </div>
-                            </div>
-                        </div>
+                    <h1 class="services_taital"> Maps </h1>
+                    <div class="services_text">
+                        <p> Heat map on <a href="https://github.com/JaxWil24/Hearing_Aid_Accessibility/blob/main/README.md"> Tableau. </a></p>
                     </div>
                 </div>
             </div>
@@ -252,6 +242,7 @@
         <!-- javascript --> 
         <script src="static/js/owl.carousel.js"></script>
         <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+        <script src="static/js/accuracy.js"></script>
         <script>
             $(document).ready(function(){
             $(".fancybox").fancybox({
