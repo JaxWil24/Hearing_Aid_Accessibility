@@ -50,7 +50,7 @@ How does the Legislation recently passed allowing over the counter (OTC) hearing
 
 # Technologies Used
 
-![Technology_used](https://user-images.githubusercontent.com/107228424/202281339-65359ea2-5369-46ed-adfb-0e05bce90eaa.jpg)
+![Technology_used](https://user-images.githubusercontent.com/107228424/202284810-4f04ba3e-b547-4553-8726-2f505ed656bd.jpg)
 
 
 ## Data Sourcing and Selection
@@ -127,7 +127,10 @@ AWS S3 Bucket has all the requirements for this analysis and will be used to sto
     costco location here” and not considering the other option “no, costco location here”.
   - Random Forest has the same limitations as Logistic Regression in as there are so few "yes'" it considers them irrelevant.  Dataset is
     imbalanced.
-  - Results tables:
+  - Results:
+
+![ml_chart](https://user-images.githubusercontent.com/107228424/202288147-5d5660af-8bf2-479a-8cb2-e363a4e71052.jpg)
+
   
    ![ML_Results](https://user-images.githubusercontent.com/107228424/200046000-230dd27f-511d-4f92-811c-43c779d8c4cb.jpg) 
     
@@ -143,7 +146,11 @@ AWS S3 Bucket has all the requirements for this analysis and will be used to sto
 The dashboard will be an interactive website. 
 * Flask will be used to create JavaScript and HTML files.
   * Graphs, Maps, and Images
-  
+
+![technology_dashboard](https://user-images.githubusercontent.com/107228424/202287938-fe94cc5f-5017-4e37-be4c-0c353c85c4c1.jpg)
+
+ 
+ 
 ## Key Takeaways
 
 * Refocus on how Costco can make affordable solutioins available to the hearing impaired.  
