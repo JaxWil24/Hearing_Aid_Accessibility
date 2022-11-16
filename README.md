@@ -49,9 +49,8 @@ How does the Legislation recently passed allowing over the counter (OTC) hearing
 
 
 # Technologies Used
-![Technology_used](https://user-images.githubusercontent.com/107228424/200983007-9034c14a-1c72-4ae5-ae0b-7abbc7ed7ebd.jpg)
 
-
+![Technology_used](https://user-images.githubusercontent.com/107228424/202281339-65359ea2-5369-46ed-adfb-0e05bce90eaa.jpg)
 
 
 ## Data Sourcing and Selection
@@ -97,9 +96,10 @@ AWS S3 Bucket has all the requirements for this analysis and will be used to sto
 
 
 ## Machine Learning
-The machine learning models (using Python's machine learning library scikit-learn)  
-
 ![ML](https://user-images.githubusercontent.com/106329824/198689906-7dbebcf9-14e0-456e-b50f-7dab7ee06345.jpg)
+
+
+![technologyused_ml](https://user-images.githubusercontent.com/107228424/202281901-9b4e893a-7795-44ac-bfa5-e61566cb949b.jpg)
 
 
 * Feature Engineering:
@@ -144,7 +144,7 @@ The dashboard will be an interactive website.
 * Flask will be used to create JavaScript and HTML files.
   * Graphs, Maps, and Images
   
-## Conclusion
+## Key Takeaways
 
 * Refocus on how Costco can make affordable solutioins available to the hearing impaired.  
 * Identify individuals with hearing impairment through online/web based hearing assessment tool. This would allow Costco to reach out to 
